@@ -1,0 +1,85 @@
+.game-control{
+
+	background-color: rgb(251, 255, 0);
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.game-state{
+	display: inline;
+	padding-left: 50px;
+}
+
+.game-title{
+	font-size: 200%;
+	font-weight: bold;
+	display: inline;
+}
+
+.game-explanation{
+	display: inline;
+}
+
+.node{
+	position:absolute; 
+	background-color:grey; 
+	color: white; 
+	width:200px; 
+	height: 80px;
+	text-align: center;
+	border-radius: 10px;
+	z-index:100;
+	margin: 10px;
+}
+
+.node-connector{
+	background-color: grey;
+	height: 10px;
+}
+
+.val-positive{
+	background-color: green;
+}
+
+.val-negative{
+	background-color: red;
+}
+
+.conector{
+	padding:0px; margin:0px;
+	line-height:1px; 
+}
+
+
+.node_value{
+	padding-top: 20px;
+	font-size: 150%;
+}
+
+.give{
+	color: black;
+	font-weight: bold;
+}
+
+.take{
+	color: black;
+	font-weight: bold;
+}
+
+.node_action{
+	text-align: center;
+	cursor: pointer;
+}
+
+.node_actions{
+	align-self: center;
+	
+}
+
+.tbl_container{
+	display: flex;
+  	justify-content: center;
+	  
+}
+
